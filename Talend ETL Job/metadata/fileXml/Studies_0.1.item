@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_cqFzgMumEeOqjbF8pPtECA" name="Studies" label="Studies" dataPackage="_MRW5RsugEeOVOcRB2R0kvA" XmlFilePath="/home/sivagnjn/ODM1-3-0_CONKO_20140310-132501.xml" Encoding="ISO-8859-15" fileContent="">
+    <schema xmi:id="_MRW5QMugEeOVOcRB2R0kvA" LimitBoucle="1000" AbsoluteXPathQuery="/ODM/Study">
+      <schemaTargets xmi:id="_5tNycNwjEeO3M5dp25x0OA" RelativeXPathQuery="@OID" TagName="OID"/>
+      <schemaTargets xmi:id="_6rG-ENwjEeO3M5dp25x0OA" RelativeXPathQuery="GlobalVariables/StudyName" TagName="StudyName"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MRW5RsugEeOVOcRB2R0kvA" name="default" dataManager="_cqFzgMumEeOqjbF8pPtECA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MRW5R8ugEeOVOcRB2R0kvA" id="__pIC4MueEeOVOcRB2R0kvA" label="StudySchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I1JQUNwjEeO3M5dp25x0OA" label="OID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I1JQUdwjEeO3M5dp25x0OA" label="StudyName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

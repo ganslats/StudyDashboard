@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_hjyQ4OGgEeOf4vCWxFZxtw" name="DateTimeIterator" dataPackage="_hjyQ6uGgEeOf4vCWxFZxtw" XmlFilePath="/home/sivagnjn/ODM_edited.xml" Encoding="ISO-8859-15" fileContent="">
+    <schema xmi:id="_hjyQ4eGgEeOf4vCWxFZxtw" LimitBoucle="50" AbsoluteXPathQuery="/ODM/ClinicalData/SubjectData/StudyEventData/FormData/ItemGroupData/ItemDataDatetime">
+      <schemaTargets xmi:id="_hjyQ4uGgEeOf4vCWxFZxtw" RelativeXPathQuery="../../../../../@StudyOID" TagName="StudyOID"/>
+      <schemaTargets xmi:id="_hjyQ4-GgEeOf4vCWxFZxtw" RelativeXPathQuery="../../../../@SubjectKey" TagName="SubjectKey"/>
+      <schemaTargets xmi:id="_hjyQ5OGgEeOf4vCWxFZxtw" RelativeXPathQuery="../../../../SiteRef/@LocationOID" TagName="LocationOID"/>
+      <schemaTargets xmi:id="_hjyQ5eGgEeOf4vCWxFZxtw" RelativeXPathQuery="../../../@StudyEventOID" TagName="StudyEventOID"/>
+      <schemaTargets xmi:id="_hjyQ5uGgEeOf4vCWxFZxtw" RelativeXPathQuery="../../@FormOID" TagName="FormOID"/>
+      <schemaTargets xmi:id="_hjyQ5-GgEeOf4vCWxFZxtw" RelativeXPathQuery="../@ItemGroupOID" TagName="ItemGroupOID"/>
+      <schemaTargets xmi:id="_hjyQ6OGgEeOf4vCWxFZxtw" RelativeXPathQuery="@ItemOID" TagName="ItemOID"/>
+      <schemaTargets xmi:id="_hjyQ6eGgEeOf4vCWxFZxtw" RelativeXPathQuery="." TagName="DateRecruited"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hjyQ6uGgEeOf4vCWxFZxtw" name="default" dataManager="_hjyQ4OGgEeOf4vCWxFZxtw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hjyQ6-GgEeOf4vCWxFZxtw" id="_718LgOGfEeOf4vCWxFZxtw" label="DateTimeSchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjyQ7OGgEeOf4vCWxFZxtw" label="StudyOID" length="5" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjyQ7eGgEeOf4vCWxFZxtw" label="SubjectKey" length="11" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy38OGgEeOf4vCWxFZxtw" label="LocationOID" length="11" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy38eGgEeOf4vCWxFZxtw" label="StudyEventOID" length="10" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy38uGgEeOf4vCWxFZxtw" label="FormOID" length="26" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy38-GgEeOf4vCWxFZxtw" label="ItemGroupOID" length="6" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy39OGgEeOf4vCWxFZxtw" label="ItemOID" length="14" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hjy39eGgEeOf4vCWxFZxtw" label="DateRecruited" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

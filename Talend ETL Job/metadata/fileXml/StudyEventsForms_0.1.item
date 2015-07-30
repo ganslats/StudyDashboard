@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_ji_HcOJvEeOGR77dPe877Q" name="StudyEventsForms" dataPackage="_ji_HduJvEeOGR77dPe877Q" XmlFilePath="/home/sivagnjn/ODM_edited.xml" Encoding="ISO-8859-15" fileContent="">
+    <schema xmi:id="_ji_HceJvEeOGR77dPe877Q" LimitBoucle="100000" AbsoluteXPathQuery="/ODM/Study/MetaDataVersion/StudyEventDef/FormRef">
+      <schemaTargets xmi:id="_ji_HcuJvEeOGR77dPe877Q" RelativeXPathQuery="../../../@OID" TagName="StudyId"/>
+      <schemaTargets xmi:id="_ji_Hc-JvEeOGR77dPe877Q" RelativeXPathQuery="../@OID" TagName="StudyEventId"/>
+      <schemaTargets xmi:id="_ji_HdOJvEeOGR77dPe877Q" RelativeXPathQuery="@FormOID" TagName="FormOID"/>
+      <schemaTargets xmi:id="_ji_HdeJvEeOGR77dPe877Q" RelativeXPathQuery="@Mandatory" TagName="Mandatory"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ji_HduJvEeOGR77dPe877Q" name="default" dataManager="_ji_HcOJvEeOGR77dPe877Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ji_Hd-JvEeOGR77dPe877Q" id="_JHqfMOJvEeOGR77dPe877Q" label="StudyEventsFormsSchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ji_HeOJvEeOGR77dPe877Q" label="StudyId" length="100" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ji_HeeJvEeOGR77dPe877Q" label="StudyEventId" length="100" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ji_HeuJvEeOGR77dPe877Q" label="FormOID" length="100" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ji_He-JvEeOGR77dPe877Q" label="Mandatory" length="100" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

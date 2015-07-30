@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_9bdpMNxMEeOWAIWWjEv3cw" name="StudyEventRef" dataPackage="_9bdpNNxMEeOWAIWWjEv3cw" XmlFilePath="/home/sivagnjn/ODM1-3-0_CONKO_20140310-132501.xml" Encoding="ISO-8859-15" fileContent="">
+    <schema xmi:id="_9bdpMdxMEeOWAIWWjEv3cw" LimitBoucle="1000" AbsoluteXPathQuery="/ODM/Study/MetaDataVersion/Protocol/StudyEventRef">
+      <schemaTargets xmi:id="_9bdpMtxMEeOWAIWWjEv3cw" RelativeXPathQuery="@StudyEventOID" TagName="StudyEventOID"/>
+      <schemaTargets xmi:id="_9bdpM9xMEeOWAIWWjEv3cw" RelativeXPathQuery="@Mandatory" TagName="Mandatory"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9bdpNNxMEeOWAIWWjEv3cw" name="default" dataManager="_9bdpMNxMEeOWAIWWjEv3cw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9bdpNdxMEeOWAIWWjEv3cw" id="_cBZGINxMEeOWAIWWjEv3cw" label="StudyEventRefSchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9bdpNtxMEeOWAIWWjEv3cw" label="StudyEventOID" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9bdpN9xMEeOWAIWWjEv3cw" label="Mandatory" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="100"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

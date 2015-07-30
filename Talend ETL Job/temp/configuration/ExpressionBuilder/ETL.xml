@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore">
+  <expression:EMFExpression id="null=>StudyEventMapping=>STUDYEVENT_ORDER" expression="row6.Order ">
+    <variables name="row5.Studyid" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.StudyName" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.OID" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.Name" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.Repeating" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.Type" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row5.Category" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row6.StudyEventOID" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row6.Mandatory" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row6.Order" value="null" talendType="id_BigDecimal" nullable="true"/>
+    <variables name="row8.STUDY_ID" value="null" talendType="id_String"/>
+    <variables name="row8.STUDY_NAME" value="null" talendType="id_String"/>
+    <variables name="row8.STUDY_CODE" value="null" talendType="id_String"/>
+    <variables name="row8.ARM_ID" value="null" talendType="id_String"/>
+    <variables name="row8.ARM_NAME" value="null" talendType="id_String"/>
+    <variables name="row8.ARM_CODE" value="null" talendType="id_String"/>
+  </expression:EMFExpression>
+  <expression:EMFExpression id="null=>RecruitmentMapping=>PATIENT_RECRUITED_DATE" expression="StringHandling.LEFT(row18.RecruitmentDate, 10)&#xA;">
+    <variables name="row14.StudyOID" value="null" talendType="id_String"/>
+    <variables name="row14.SubjectKey" value="null" talendType="id_String"/>
+    <variables name="row14.LocationOID" value="null" talendType="id_String"/>
+    <variables name="row18.StudyOID" value="null" talendType="id_String"/>
+    <variables name="row18.SubjectKey" value="null" talendType="id_String"/>
+    <variables name="row18.RecruitmentDate" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row24.StudyOID" value="null" talendType="id_String"/>
+    <variables name="row24.SubjectKey" value="null" talendType="id_String"/>
+    <variables name="row24.DropoutDate" value="null" talendType="id_String" nullable="true"/>
+    <variables name="row28.StudyOID" value="null" talendType="id_String"/>
+    <variables name="row28.SubjectKey" value="null" talendType="id_String"/>
+    <variables name="row28.DropoutType" value="null" talendType="id_String" nullable="true"/>
+  </expression:EMFExpression>
+</xmi:XMI>
